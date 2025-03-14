@@ -3,7 +3,7 @@
 
 **WatJai** is an AI-powered platform designed for heart disease screening using ECG signal analysis. The system leverages deep learning models to detect anomalies in ECG waveforms, providing early diagnosis support for cardiovascular diseases.
 
-![Overview of WatJai System](/Overview.png)
+![Overview of WatJai System](src/WatJai_Diagram.png)
 
 ## Table of Contents
 
@@ -37,11 +37,7 @@ The AI model powering **WatJai** consists of:
 
 ### Model Performance  
 
-| AI Algorithm  | Test 1 | Test 2 | Test 3 | Average Accuracy |
-|--------------|--------|--------|--------|------------------|
-| **VGG19**       | 83.9%  | 81.9%  | 81.7%  | **82.5%** |
-| **ResNet-50**   | 85.8%  | 87.0%  | 87.2%  | **86.6%** |
-| **EfficientNetB0** | 85.6%  | 85.8%  | 84.1%  | **85.2%** |
+![Overview of WatJai System](src/WatJai_Model.png)
 
 🔹 **Best Model**: **ResNet-50** achieved the highest average accuracy of **86.6%**, making it the most effective model for ECG anomaly detection.
 
