@@ -10,9 +10,7 @@
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [Model Architecture](#model-architecture)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Results](#results)
 - [License](#license)
 
 ## Introduction  
