@@ -1,65 +1,70 @@
-# WatJai: AI-powered Heart Disease Screening with ECG Analysis  
-## ***🏆 Thailand Innovation Award 2024***
+# Getting Started with Create React App
 
-**WatJai** is an AI-powered platform designed for heart disease screening using ECG signal analysis. The system leverages deep learning models to detect anomalies in ECG waveforms, providing early diagnosis support for cardiovascular diseases.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Overview of WatJai System](src/WatJai_Diagram.png)
+## Available Scripts
 
-## Table of Contents
+In the project directory, you can run:
 
-- [Introduction](#introduction)
-- [Key Features](#key-features)
-- [Model Architecture](#model-architecture)
-- [Usage](#usage)
-- [License](#license)
+### `npm start`
 
-## Introduction  
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-WatJai integrates **ECG signal processing** with **deep learning** to provide an accessible and efficient heart disease screening tool. The goal is to assist individuals and healthcare professionals in **early detection** of potential cardiovascular diseases, reducing risks through timely intervention.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Key Features  
+### `npm test`
 
-- **ECG Signal Analysis**: Processes raw ECG waveforms to detect abnormal patterns.  
-- **Deep Learning Classification**: Utilizes a trained neural network model for disease detection.  
-- **Bluetooth Integration**: Connects seamlessly with ECG sensors via mobile applications.  
-- **Real-time Risk Assessment**: Provides instant feedback on potential heart conditions.  
-- **User-friendly Interface**: Designed for ease of use by both patients and healthcare professionals.  
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Model Architecture  
+### `npm run build`
 
-The AI model powering **WatJai** consists of:  
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **Preprocessing Module**: Filters and normalizes ECG signals.  
-- **Deep Learning Model**: Uses Convolutional Neural Networks (CNN) for pattern recognition.  
-- **Risk Assessment Engine**: Assigns probability scores to different heart disease conditions.  
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Model Performance  
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-![Overview of WatJai System](src/WatJai_Model.png)
+### `npm run eject`
 
-🔹 **Best Model**: **ResNet-50** achieved the highest average accuracy of **86.6%**, making it the most effective model for ECG anomaly detection.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Usage  
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-1. Connect an **ECG sensor** to your device via **Bluetooth**.  
-2. Start the **WatJai Application**.  
-3. Record or upload an **ECG signal**.  
-4. View **real-time analysis** and risk predictions.  
-5. Save and track historical ECG data.  
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## License  
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Tags  
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- ECG  
-- Deep Learning  
-- Cardiovascular Screening  
-- Medical AI  
-- Heart Disease Detection  
-- Mobile Health  
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
