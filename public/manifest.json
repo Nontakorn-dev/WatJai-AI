@@ -1,5 +1,5 @@
 {
-  "short_name": "React App",
+  "short_name": "WatJai",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "WatJai192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "WatJai512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
