@@ -142,27 +142,7 @@ const HomePage = () => {
   return (
     <div className="home-page">
       {/* Enhanced User Profile Header */}
-      <div className="user-header">
-        <div className="user-profile-container">
-          {isLoggedIn ? (
-            <>
-              <div className="user-avatar">
-                <FaUser className="avatar-icon" />
-              </div>
-              <div className="user-info">
-                <div className="user-name">{userDisplayName}</div>
-                <button className="logout-button" onClick={handleLogout}>
-                  <FaSignOutAlt className="me-2" /> ออกจากระบบ
-                </button>
-              </div>
-            </>
-          ) : (
-            <button className="signin-button" onClick={() => setShowLoginModal(true)}>
-              <FaSignInAlt className="me-2" /> เข้าสู่ระบบ
-            </button>
-          )}
-        </div>
-      </div>
+      
 
       <Container className="main-container">
         {/* Device Status */}
