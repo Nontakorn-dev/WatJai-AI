@@ -26,7 +26,7 @@ const HomePage = () => {
   const [systolic, setSystolic] = useState('');
   const [diastolic, setDiastolic] = useState('');
   const [bpValue, setBpValue] = useState('--/--');
-  const [bpLastMeasured, setBpLastMeasured] = useState('Last measured 2h ago');
+  const [bpLastMeasured, setBpLastMeasured] = useState('LastT measured 2h ago');
   
   // Blood sugar values
   const [bloodSugar, setBloodSugar] = useState('');
