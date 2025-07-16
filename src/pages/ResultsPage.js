@@ -219,7 +219,7 @@ const ResultsPage = () => {
           <p>กรุณาวัดและวิเคราะห์ ECG</p>
           <hr />
           <div className="d-flex justify-content-between">
-            <Link to="/electrode-position">
+            <Link to="/measure">
               <Button variant="primary">ไปที่การวัด ECG</Button>
             </Link>
             
