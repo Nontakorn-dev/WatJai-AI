@@ -53,8 +53,9 @@ const Header = () => {
         <Offcanvas.Body>
           <Nav className="flex-column mobile-nav">
             <Nav.Link as={Link} to="/" onClick={handleClose}>Home</Nav.Link>
-            <Nav.Link as={Link} to="/measure" onClick={handleClose}>Measure</Nav.Link>
+            <Nav.Link as={Link} to="/electrode-position" onClick={handleClose}>Measure</Nav.Link>
             <Nav.Link as={Link} to="/history" onClick={handleClose}>History</Nav.Link>
+            <Nav.Link as={Link} to="/disclaimer" onClick={handleClose}>Disclaimer</Nav.Link>
           </Nav>
         </Offcanvas.Body>
       </Offcanvas>
