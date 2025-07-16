@@ -12,6 +12,7 @@ import HistoryPage from './pages/HistoryPage';
 import TelemedicinePage from './pages/TelemedicinePage';
 import VideoConsultationPage from './pages/VideoConsultationPage';
 import { ECGProvider } from './context/ECGContext';
+import DisclaimerPage from './pages/DisclaimerPage';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/history" element={<HistoryPage />} />
           <Route path="/telemedicine" element={<TelemedicinePage />} />
           <Route path="/telemedicine/consult/:sessionId" element={<VideoConsultationPage />} />
+          <Route path="/disclaimer" element={<DisclaimerPage />} /> {/* <-- เพิ่ม Route สำหรับหน้า Disclaimer */}
         </Routes>
         </Container>
       </Router>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar, Container, Nav, Offcanvas } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+// import { LinkContainer } from 'react-router-bootstrap'; // ต้องติดตั้งเพิ่ม
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -26,8 +27,9 @@ const Header = () => {
           <div className="desktop-nav-container d-none d-lg-flex">
             <Nav className="ms-auto desktop-nav">
               <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/measure">Measure</Nav.Link>
+              <Nav.Link as={Link} to="/electrode-position">Measure</Nav.Link>
               <Nav.Link as={Link} to="/history">History</Nav.Link>
+              <Nav.Link as={Link} to="/disclaimer">Disclaimer</Nav.Link>
             </Nav>
           </div>
           
