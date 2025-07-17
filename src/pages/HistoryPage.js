@@ -206,7 +206,7 @@ const HistoryPage = () => {
           </div>
           <hr />
           <div className="d-flex justify-content-end">
-            <Button variant="primary" onClick={() => navigate('/measure')} className="action-button">
+            <Button variant="primary" onClick={() => navigate('/electrode-position')} className="action-button">
               Go to ECG Measurement
             </Button>
           </div>
@@ -398,7 +398,7 @@ const HistoryPage = () => {
         </Alert>
       )}
       
-      {!isLoading && filteredHistory.map((record) => (
+      {/* {!isLoading && filteredHistory.map((record) => (
         <Card key={record.id} className="history-card mb-3">
           <Card.Body>
             <Row>
@@ -511,7 +511,7 @@ const HistoryPage = () => {
             </Row>
           </Card.Body>
         </Card>
-      ))}
+      ))} */}
       
       {/* Details Modal */}
       <Modal 

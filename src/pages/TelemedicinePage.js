@@ -90,10 +90,10 @@ const ShareECGRecord = () => {
               <div className="record-selection">
                 <div className="record-item selected">
                   <div className="date-container">
-                    <span className="calendar-icon">📅</span>
-                    <span className="record-date">{currentRecord.date}</span>
+                    {/* <span className="calendar-icon">📅</span> */}
+                    {/* <span className="record-date">{currentRecord.date}</span> */}
                   </div>
-                  <div className="record-result">{currentRecord.prediction}</div>
+                  {/* <div className="record-result">{currentRecord.prediction}</div> */}
                   <div className="radio-container">
                     <input type="radio" checked readOnly />
                   </div>
