@@ -9,7 +9,7 @@ const mockECGAnalysisResults = {
   confidence: 92.5,
   bpm: 72,
   timestamp: new Date().toISOString(),
-  processing_time: 1.25,
+  processing_time: 10.25,
   probabilities: {
     "Normal Sinus Rhythm": 0.925,
     "Atrial Fibrillation": 0.035,
