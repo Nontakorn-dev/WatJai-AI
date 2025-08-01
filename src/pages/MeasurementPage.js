@@ -562,6 +562,14 @@ const MeasurementPage = () => {
     } else {
       // แสดงหน้าต่าง Processing เมื่อจะไปหน้าผลลัพธ์
       if (lead1Data.length > 0) {
+
+        if (contextIsConnected) {
+      try {
+        await WebSocketService.sendCommand('PROCESS');
+      } catch (err) {
+        console.error("Error sending PROCESS command:", err);
+      }
+    }
         setShowProcessingModal(true);
         setProcessingProgress(0);
         
