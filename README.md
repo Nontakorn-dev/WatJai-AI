@@ -35,8 +35,6 @@ The AI model powering **WatJai** consists of:
 
 ### Model Performance  
 
-![Overview of WatJai System](src/WatJai_Model.png)
-
 🔹 **Best Model**: **ResNet-50** achieved the highest average accuracy of **86.6%**, making it the most effective model for ECG anomaly detection.
 
 ## Usage  
