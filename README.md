@@ -308,6 +308,9 @@ For public repositories, move private Wi-Fi credentials out of the source code b
 **🥈 2nd Place — NSC 2025 National Competition**  
 **Awarded 50,000 THB**
 
+
+![Silver Award](NSC_award.jpeg)
+
 **🏆 Thailand Innovation Award 2024**
 
 ---
